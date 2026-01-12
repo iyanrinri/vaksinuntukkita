@@ -637,9 +637,21 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .section-carousel {
+    height: 100%;
+  }
+  
+  .hero-slider {
+    height: 400px; /* Reduced height for mobile */
+  }
+
   .slogan {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-size: 1.5rem; /* Smaller font */
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content {
+    padding: 2rem 1rem; /* More compact padding */
   }
 
   .section-detail {
