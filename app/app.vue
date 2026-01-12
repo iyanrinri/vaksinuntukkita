@@ -639,6 +639,17 @@ footer {
 @media (max-width: 768px) {
   .slogan {
     font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-detail {
+    padding: 3rem 1.5rem;
+  }
+
+  .facts-list,
+  .detail-grid,
+  .footer-container {
+    grid-template-columns: 1fr; /* Force single column */
   }
 
   .fact-card {
@@ -647,6 +658,11 @@ footer {
 
   .text {
     font-size: 1.1rem;
+  }
+  
+  .carousel-control {
+    padding: 0.5rem;
+    font-size: 1.5rem;
   }
 }
 
