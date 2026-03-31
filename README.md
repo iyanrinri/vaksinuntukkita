@@ -1,6 +1,6 @@
-# Nuxt Minimal Starter
+# Vaksin Untuk Kita
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Aplikasi informasi vaksin berbasis Nuxt.
 
 ## Setup
 
@@ -72,4 +72,21 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Deploy ke Vercel
+
+Project ini sudah disiapkan dengan `nitro.preset = 'vercel'` di `nuxt.config.ts`.
+
+Langkah deploy:
+
+1. Push project ke repository GitHub.
+2. Import repository di Vercel.
+3. Gunakan pengaturan build berikut (biasanya otomatis terdeteksi):
+	- Build Command: `npm run build`
+	- Output Directory: `.vercel/output`
+4. Deploy.
+
+Untuk local preview hasil production, tetap bisa pakai:
+
+```bash
+npm run preview
+```
